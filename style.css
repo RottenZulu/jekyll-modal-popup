@@ -1,1 +1,29 @@
+.popup-hold {
+  height: 300px;
+  border: 2px solid black;
+}
 
+.popup-overlay {
+  visibility: hidden;
+  position: absolute;
+  border-radius: 10px;
+  width: 50%;
+  height: 50%;
+  left: 25%;
+  color: white;
+}
+
+.popup-overlay.active {
+  visibility: visible;
+  text-align: center;
+  z-index: 1;
+}
+
+.popup-content {
+  visibility: hidden;
+}
+
+.popup-content.active {
+  visibility: visible;
+  z-index: 1;
+}
