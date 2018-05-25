@@ -7,20 +7,20 @@
 # color: color of gem.  #
 #########################
 
-- gem:
-  color:
+- gem: Space
+  color: blue
   
-- gem:
-  color:
+- gem: Power
+  color: purple
 
-- gem:
-  color:
+- gem: Reality
+  color: red
 
-- gem:
-  color:
+- gem: Time
+  color: green
 
-- gem:
-  color:
+- gem: Soul
+  color: orange
 
-- gem:
-  color:
+- gem: Mind
+  color: yellow
