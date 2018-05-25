@@ -1,15 +1,20 @@
 ---
 layout: default
 ---
-
-<div class="popup-overlay">
-  <div class="popup-content">
-    <h1>Hello!</h1>
-    
+<div class="row">
+  <h1>Infintiy Stones</h1>
+</div>
+<div class="row">
+  {% for infinity-stone in site.data.infinity-stones %}
+  <div class="popup-overlay">
+    <div class="popup-content">
+      <h1>{{ infinity-stone.gem }}</h1>
+      <button type="button" class="close">Close</button>
+    </div>
   </div>
+  <div class="popup-hold">
+    <h1>{{ infinity-stone.color }}</h1>
+    <button type="button" class="open">Open</button>
+  </div>
+  {% endfor %}
 </div>
-<div class="popup-hold">
-  <h1></h1>
-  <button type="button" class="open">Open</button>
-</div>
-
